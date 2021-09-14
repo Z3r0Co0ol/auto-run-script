@@ -1,0 +1,13 @@
+#!/bin/sh
+# coded by z3r0-c00l
+
+read -p "Enter the time : " input
+read -p "Enter the command :" input2
+
+while true
+do	
+	$input2
+	echo -" please wait ( $input second ) before trying again "
+	echo "Press [CTRL+C] to stop.."
+	sleep $input
+done
